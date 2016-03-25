@@ -1,0 +1,27 @@
+body {
+	background: #001522;
+	font: lighter 12px arial, sans-serif;
+	color: #ffffff;
+	text-align: center;
+}
+
+.header {
+	background: #001522 url(../html/fullstack_logo.png) center no-repeat;
+	height: 120px;
+	text-indent: -9999px;
+	padding: 20px;
+	margin: 40px;
+	border-bottom: 1px solid #ffffff;
+}
+
+input[type=submit] {
+	font-size: 50px;
+	width: 150px;
+}
+
+.game input {
+	display: block;
+	margin: 10px auto 10px auto;
+	font-size: 22px;
+	width: 200px;
+}
