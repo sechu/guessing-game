@@ -1,27 +1,61 @@
 body {
-	background: #001522;
-	font: lighter 12px arial, sans-serif;
-	color: #ffffff;
+	background: rgba(0, 21, 34, 0.19);
+	font: lighter 16px BlinkMacSystemFont, arial, sans-serif;
+	color: #824242;
 	text-align: center;
 }
 
 .header {
-	background: #001522 url(../html/fullstack_logo.png) center no-repeat;
-	height: 120px;
+	background: rgba(211, 214, 216, 0.19) url(../html/fullstack_logo.png) center no-repeat;
+	height: 100px;
 	text-indent: -9999px;
 	padding: 20px;
 	margin: 40px;
 	border-bottom: 1px solid #ffffff;
 }
 
-input[type=submit] {
-	font-size: 50px;
+button {
+	font-size: 16px;
 	width: 150px;
+	padding: 10px;
+	color: #824242;
 }
 
-.game input {
+input {
 	display: block;
 	margin: 10px auto 10px auto;
-	font-size: 22px;
-	width: 200px;
+	font-size: 16px;
+	width: 250px;
+	text-align: center;
+	padding: 10px;
+	border: none;
+	color: #824242;
+}
+
+input:focus {
+	outline-color: beige;
+}
+
+#hint {
+	display: none;
+}
+
+p {
+	margin: 10px auto 10px auto;
+	width: 300px;
+
+}
+
+.mute, .off, .off input {
+	color: #888888;
+}
+
+blockquote {
+	font: bold 22px Georgia;
+	display: none;
+}
+
+footer {
+	margin-top: 80px;
+	display: none;
 }
